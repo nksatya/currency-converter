@@ -1,0 +1,52 @@
+<!--
+    Author: Satya Nilamegam Kumaran
+    ID: C0886405
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Currency conversion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Assignment 2 & 3/CSS/index.css'>
+    <script src='../Assignment 2 & 3/JS/main.js'></script>
+</head>
+
+<body>
+    <main>
+        <div id="heading">
+            <h1>US Dollar to Canadian Dollar.</h1>
+            <h2>Convert USD to CAD at the real exchange rate</h2>
+        </div>
+        <div id="input">
+            <div class="inputChilds">
+                <label for="USD">Amount</label>
+                <div>
+                    <input id="USD" type="number" min="1">
+                    <select name="currency" id="usdCurrency">
+                        <option value="CAD">CAD</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputChilds">
+                <label for="CAD">Converted to</label>
+                <div>
+                    <input id="CAD" type="number" min="1" disabled="true">
+                    <select name="currency" id="cadCurrency">
+                        <option value="CAD">CAD</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inputChilds">
+                <button id="convertButton" onclick="convert()">Convert</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

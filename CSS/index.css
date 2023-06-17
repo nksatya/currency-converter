@@ -1,0 +1,24 @@
+/*
+    Author: Satya Nilamegam Kumaran
+    ID: C0886405
+*/
+
+#heading {
+    background-color: #38547c;
+    color: white;
+    padding: 1%;
+}
+
+#input {
+    display: flex;
+}
+
+.inputChilds {
+    justify-content: center;
+    padding: 1%;
+}
+
+#convertButton {
+    padding: 20%;
+    box-shadow: 4px 4px 15px 5px rgba(56, 84, 124, 0.6);
+}
